@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Frames</title>
+</head>
+<body bgcolor="grey">
+<h1 style="color: white; font-family: Times New Roman;"><u>Floating Frame</u></h1>
+<p> Up to this point, all the frames shown have been attached to the sides of the browser (left, right, top, or bottom). Another form of frame, known as a floating frame but more appropriately called an inline frame, was initially introduced by Microsoft but has been incorporated into the HTML and XHTML standards. The idea of the floating frame is to create an inline framed region, or window, that acts similarly to any other embedded object, insofar as text can be flowed around it. An inline frame is defined by the iframe element and can occur anywhere within the body of an HTML document. Compare this to the frame element that should occur only within the frameset element.
+The major attributes to set for an iframe tag include src , height , and width . The src is set to the URL of the file to load, while the height and width are set either to the pixel or percentage value of the screen that the floating frame region should consume . Like an tag, floating frames support the align attribute for basic positioning within the flow of text. Like standard frames, the iframe element also supports marginheight and marginwidth attributes to control the margins on framed content. Internet Explorer supports the addition of the hspace and vspace attributes as well, although the HTML and XHTML specification does not. In general, like most elements, more complex presentation should be handled by CSS rules, as discussed in Chapters 10 and 11.</p>
+<iframe src="iframe.html" width="380" align="left"></iframe>
+<p>Note that, unlike the empty frame element, the iframe element has a closing tag. The tag pair should contain any HTML markup code and text that is supposed to be displayed in browsers that don't support floating frames ”thus the concept of noframes is provided in the tag itself.</p>
+
+</p>One of the biggest problems with frames is that they initially were used simply because they existed. Framed documents can provide considerable benefit, but at a price. A potential benefit of frames is that they allow content to be fixed onscreen, although CSS will eventually provide this effect in compliant browsers. As demonstrated in previous examples, one frame can contain navigation, while the other frame contains the actual information. Keeping navigation onscreen provides a convenient way to navigate the body of information. Furthermore, if one frame has fixed navigation, the user might perceive the Web interface to be more responsive because only part of the screen needs to update between selections. In addition to this benefit, frames enable the designer to present two or more documents simultaneously , which is useful for comparison.</p>
+<p>
+</body>
+</html>
